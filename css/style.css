@@ -1,0 +1,39 @@
+body {
+    padding-top: 0;
+    margin: 0;
+}
+
+#presentacion {
+    background-color: #fdefef;
+    width: 100%;
+}
+
+#informacion {
+    background-color: #f4dfdf;
+    width: 100%;
+}
+
+#conocimientos {
+    background-color: #dad0d0;
+    width: 100%;
+}
+
+#proyectos {
+    background-color: #c2cdbb;
+    width: 100%;
+}
+
+#redes {
+    background-color: #a7b0b0;
+    width: 100%;
+}
+
+#contacto {
+    background-color: #dfd0c2;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
