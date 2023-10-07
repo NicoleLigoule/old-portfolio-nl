@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nicole Ligoule</title>
-    <link rel="icon" href="portfolio-nl\resources\favicons\flag_AR.ico">
+    <link rel="icon" href="resources/favicons/flag_AR/flag_AR.ico">
     <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -21,35 +21,70 @@
         </ul>
     </nav>
     
-    <section id="presentacion">
+    <section id="presentacion" class="container-fluid py-5">
         <h2>Presentación</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur maiores nihil, tempora sapiente rerum nostrum rem quod ex quaerat praesentium ut provident est sunt aperiam excepturi enim quas, magni in.</p>
-        <img src="resources/images/mini-nicole.jpg" alt="ImagenNicole">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur maiores nihil, tempora sapiente rerum nostrum
+            rem quod ex quaerat praesentium ut provident est sunt aperiam excepturi enim quas, magni in.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur maiores nihil, tempora sapiente rerum nostrum
+                rem quod ex quaerat praesentium ut provident est sunt aperiam excepturi enim quas, magni in.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur maiores nihil, tempora sapiente rerum nostrum
+                    rem quod ex quaerat praesentium ut provident est sunt aperiam excepturi enim quas, magni in.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur maiores nihil, tempora sapiente rerum nostrum
+                        rem quod ex quaerat praesentium ut provident est sunt aperiam excepturi enim quas, magni in.</p>
+        <button class="btn btn-primary ml-auto" onclick="downloadCV()">
+            Aca podes descargar mi CV
+        </button>
+        <img src="resources/images/foto2.png" alt="Nicole" class="circular-imagen">
     </section>
-    
-    <section id="informacion">
-        <h2>Información general</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil quam excepturi accusantium ab laudantium voluptatem veritatis omnis aliquam dolores suscipit? Totam eaque ipsum molestias, voluptas hic dolorum beatae enim fugit.</p>
+     
+    <section id="informacion" class="container-fluid py-5">
+        <div class="row">
+            <div class="col-lg-12">
+            <h2 class="mb-4">Información general</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum vel laudantium qui ducimus quo sit ut dolorum repellendus, error officiis, mollitia quas inventore ratione officia perspiciatis libero deleniti aperiam facilis.</p>
     </section>
+   
     
-    <section id="conocimientos">
+    <section id="conocimientos" class="container-fluid py-5">
         <h2>Conocimientos</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui error veritatis dolor architecto reiciendis ipsam sint ullam, minus, ducimus obcaecati fuga at quod non! Voluptas blanditiis vero impedit reprehenderit accusantium?</p>
     </section>
     
-    <section id="proyectos">
+    <section id="proyectos" class="container-fluid py-5">
         <h2>Proyectos</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, molestias? Nulla voluptatem obcaecati eius reprehenderit temporibus laboriosam minima dolores! Dignissimos quisquam unde itaque iure sint, natus perspiciatis qui. Vel, ipsam.</p>
     </section>
     
-    <section id="redes">
+    <section id="redes" class="container-fluid py-5">
         <h2>Redes</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam dolores nihil at, illum perspiciatis quod similique labore pariatur minus error obcaecati odit aut. Modi reiciendis cumque, nisi sit praesentium omnis.</p>
+        <div class="row mt-3">
+            <div class="col">
+                <a href="https://www.linkedin.com/in/nicoleligoule/" class="btn btn-secondary">Linkedin</a>
+            </div>
+            <div class="col">
+                <a href="https://www.instagram.com/nicoleligoule/" class="btn btn-secondary">Instagram</a>
+            </div>
+        </div>
     </section>
     
-    <section id="contacto">
+    <section id="contacto" class="container-fluid py-5">
         <h2>Contacto</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, id dolor! Ex autem, nobis, necessitatibus, cumque dicta impedit aperiam quidem architecto hic mollitia at quae ullam commodi quod eum culpa.</p>
+        <form action="#" method="post">
+            <div class="formulario">
+                <label for="nombre">Name:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+            </div>
+            <div class="formulario">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Tu email" required>
+            </div>
+            <div class="formulario">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" placeholder="¿En qué te puedo ayudar?" rows="5" required></textarea>
+            </div>
+            <button type="enviar">Enviar</button>
+        </form>
     </section>
 
     <script src="js/script.js"></script>
